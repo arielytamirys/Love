@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    /* background-image: url(../imagens/fundo-celular.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../imagens/fundo-celular.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 80px;
+    border-bottom: solid 8px #C54B3C;
+}
+
+.container-grid {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+}
+
+.icone-rede {
+    width: 40px;
+}
+
+.conteudo-banner {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto-banner {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lojas-app {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.topico {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;/* QUAL DIREÇAO VAI*/
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.topico h3 {
+    font-size: 25px;
+}
+
+.circulo {
+    background-color: #C54B3C;
+    width: 40px; /* DETERMINA A LARGURA*/
+    height: 40px;/*DETERMINA A ALTURA*/
+    display: flex;
+    justify-content: center;/*JUSTIFICANDO PRO CENTRO*/
+    align-items: center;/*ALINHANDO PROCENTRO*/
+    border-radius: 50%;/* METODO PARA DEIXAR CIRCULAR AO CONTORNO DO ICONE*/
+}
+
+.circulo i {
+    font-size: 18px;
+    color: white;
+}
+
+.secao-slogan{
+    background-color: sienna;
+    color: white;
+    height: 120px;
+}
+.slogan{ /* slogan tem como pai  a secao-slogan, entao esta baseado de como seria */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.secao-seehow{
+    background-color: #36373f;
+    color: white;
+    padding-top: 40px;
+
+}
+
+.celular-seehow{
+    display: flex;
+    width: 30%;
+
+}
+
+.secao-seehow h2{
+    text-align: center;
+    font-size: 43px;
+    font-weight: lighter;
+
+}
+
+.conteudo-seehow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+
+.esquerda{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 175px;
+}
+ .lapis{ /*colocar meu lapis da cor que quero*/
+     color: #C54B3C;
+ }
+ .titulo-seehow{
+     
+display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 50%;
+     
+ }
+
+.meio-seehow{
+    background-color:#2b2d39;
+    color: white;
+    padding-top: 40px; /*define as dostancia entre um conteudo ou elemento*/
+
+}
+
+.meio-direita{
+    width: 40%;
+    display: flex;
+    height: 180px; 
+ 
+}
+.titulo-meio{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.fundo-bars i {
+    font-size: 22px;
+}
+
+.secao-formulario {
+    background-color: #C54B3C;
+    padding: 40px 0;
+    color: white;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-form {
+    font-size: 43px;
+    font-weight: lighter;
+}
+
+.formulario {
+    width: 400px;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-form input {
+    /* font-size: 24px; */
+    height: 32px;
+}
+
+.campo-form textarea {
+    resize: none;
+}
+
+.formulario input[type="submit"] {
+    background-color: #AF4638;
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    width: 80px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #7a3229;
+    cursor: pointer;
+}
+
+footer {
+    height: 60px;
+}
+
+.container-footer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer span {
+    font-size: 12px;
+}
